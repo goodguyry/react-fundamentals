@@ -14,7 +14,11 @@
       'div',
       {
         className: 'container',
-        children: 'Hello World'
+        children: [
+          React.createElement('span', null, 'Hello'),
+          ' ',
+          React.createElement('span', null, 'World'),
+        ],
       }
     );
 
